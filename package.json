@@ -1,0 +1,26 @@
+{
+  "name": "laguns",
+  "version": "1.0.0",
+  "description": "LAGUNS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 3",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsu/laguns"
+  },
+  "author": "timo.suomela@reaktor.fi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsu/laguns/issues"
+  },
+  "homepage": "https://github.com/tsu/laguns",
+  "dependencies": {
+    "baconjs": "^0.7.41",
+    "browserify-middleware": "^4.1.0",
+    "express": "^4.10.6",
+    "jquery": "^2.1.3"
+  }
+}
