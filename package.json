@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "LAGUNS",
   "main": "main.js",
+  "engines": {
+    "node": "0.10.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 3",
     "start": "node server.js"
