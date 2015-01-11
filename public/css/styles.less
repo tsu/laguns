@@ -1,9 +1,23 @@
-@radius: 75px;
+@radius: 30px;
+
+.content {
+  padding: 10px;
+}
+
+.circles {
+  list-style: outside none none;
+  padding: 0;
+}
 
 .circle {
   border-radius: @radius;
   width: @radius * 2;
   height: @radius * 2;
+  line-height: @radius * 2;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 10px;
 }
 
 .circle-white {
