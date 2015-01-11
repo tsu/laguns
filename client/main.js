@@ -15,7 +15,7 @@ var program = [
   {'name': 'Calf', reps: 12}
 ];
 
-var oneAndAHalfMinuteInSeconds = 9;
+var oneAndAHalfMinuteInSeconds = 90;
 var fiveMinutesInSeconds = 5 * 60;
 var fiveSecondsInMillis = 5 * 1000;
 var timerStream = new Bacon.Bus();
