@@ -1,4 +1,6 @@
-@radius: 30px;
+@fontSize: 30px;
+@lineHeight: @fontSize * 2;
+@radius: @fontSize;
 
 .content {
   padding: 10px;
@@ -13,10 +15,10 @@
   border-radius: @radius;
   width: @radius * 2;
   height: @radius * 2;
-  line-height: @radius * 2;
+  line-height: @lineHeight;
   display: inline-block;
   text-align: center;
-  font-size: @radius;
+  font-size: @fontSize;
   margin-right: 10px;
   color: white;
 }
@@ -34,4 +36,18 @@
 .circle-green {
   border: 1px solid white;
   background-color: green;
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: @lineHeight;
+  width: 100%;
+  background: black;
+  display: none;
+  color: white;
+  font-size: @fontSize;
+  line-height: @lineHeight;
+  text-align: center;
 }
